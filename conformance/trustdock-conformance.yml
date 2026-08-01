@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://biz.trustdock.io/company
+notes: >-
+  TRUSTDOCK does not publish a public OpenAPI specification (API documentation is
+  provided under NDA), so standards conformance below is captured from the
+  company's published corporate-information page rather than derived from a spec.
+  Certifications and standards-body affiliations are recorded verbatim from that page.
+standards:
+  - id: iso-27001
+    name: ISO/IEC 27001 (ISMS)
+    conforms: true
+    evidence: Corporate information page states the company holds ISMS (Information Security Management System / ISO 27001) certification.
+  - id: privacy-mark
+    name: PrivacyMark (JIS Q 15001)
+    conforms: true
+    evidence: "Corporate information page lists PrivacyMark (Pマーク) registration number 17003414号."
+  - id: oidc
+    name: OpenID Connect
+    conforms: unknown
+    evidence: Member of the OpenID Foundation Japan KYC Working Group; no public API spec available to confirm OIDC conformance.
+  - id: fido
+    name: FIDO
+    conforms: unknown
+    evidence: Member of the FIDO Alliance (Identity Verification & Binding Working Group); no public API spec available to confirm conformance.
+affiliations:
+  - Fintech Association of Japan
+  - Japan Blockchain Association
+  - OpenID Foundation Japan (KYC Working Group)
+  - FIDO Alliance (Identity Verification & Binding Working Group)
+  - Sharing Economy Association
+  - LegalTech Association

@@ -1,8 +1,31 @@
 aid: trustdock
 name: Trustdock
-description: Trustdock is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TRUSTDOCK Inc. (株式会社TRUSTDOCK) is a Tokyo-based digital identity and eKYC
+  (electronic Know Your Customer) provider founded in November 2017. The company
+  delivers high-precision, fast, and low-cost online identity verification and
+  digital ID infrastructure via API, serving more than 300 enterprise and
+  government clients across finance, insurance, ride-sharing and car-sharing,
+  telecommunications (MNO/MVNO), real-estate crowdfunding, second-hand/reuse
+  goods, recruitment, matching apps, and public-sector onboarding. TRUSTDOCK
+  offers both browser-based and mobile-app-based verification flows, holds ISMS
+  (ISO 27001) certification and the Japanese PrivacyMark, and participates in the
+  OpenID Foundation Japan KYC Working Group and the FIDO Alliance. Its API
+  documentation is provided to customers under NDA rather than published to a
+  public developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/trustdock/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://biz.trustdock.io/hubfs/TD_TOP.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- eKYC
+- Identity Verification
+- KYC
+- Digital Identity
+- Authentication
+- RegTech
+- FinTech
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://biz.trustdock.io
+- type: Pricing
+  url: https://biz.trustdock.io/pricing
+- type: SignUp
+  url: https://biz.trustdock.io/ekyc-free-trial
+- type: Support
+  url: https://biz.trustdock.io/contact
+- type: Blog
+  url: https://zenn.dev/p/trustdock
+- type: PrivacyPolicy
+  url: https://biz.trustdock.io/privacy
+- type: TermsOfService
+  url: https://biz.trustdock.io/terms-of-use
+- type: Compliance
+  url: https://biz.trustdock.io/company
+- type: Conformance
+  url: conformance/trustdock-conformance.yml
+- type: DomainSecurity
+  url: security/trustdock-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
